@@ -23,7 +23,7 @@ namespace GraphqlProject.Services
 
         public List<Product> GetAllProducts()
         {
-            //return Produtcs;
+            //return Produtcs; 
             return _dbContext.Products.ToList();
         }
 
